@@ -1,7 +1,7 @@
 import styles from "./SobreMim.module.css"
 import PostModelo from "componentes/PostModelo";
 import fotoCapa from "assets/sobre_mim_capa.png";
-import fotoSobreMim from "assets/sobre_mim_foto.png";
+import fotoSobreMim from "assets/minha_foto.jpg";
 
 
 export default function SobreMim() {
@@ -17,28 +17,28 @@ export default function SobreMim() {
 
             <img
                 src={fotoSobreMim}
-                alt="Foto do Antônio Everaldo sorrindo"
+                alt="Foto do Leandro sorrindo"
                 className={styles.fotoSobreMim}
             />
             <p className={styles.paragrafo}>
-                Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te ver por aqui.
+                Oi, tudo bem? Eu sou desenvolvedor Front-end e estou feliz de te ver por aqui.
             </p>
             <p className={styles.paragrafo}>
-                Minha história com programação começou no Instituto Federal do Piauí (IFPI), quando fiz o ensino médio integrado ao curso de Informática. Eu aprendi lógica de programação e o básico de várias linguagens, como PHP, Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava muito de estudar programação, mas na época não fazia ideia de que trabalharia com isso hoje.
+                Formado em Técnico em Eletrônica, tenho experiência com consertos de equipamentos eletrônicos diversos e suporte técnico em configurações de equipamentos de segurança eletrônica como centrais de alarmes, cercas elétricas , CFTV, automação, sistemas de incêndio, controle de acesso, redes e informática.
             </p>
             <p className={styles.paragrafo}>
-                No ensino superior, escolhi cursar Engenharia Elétrica na Universidade Federal do Piauí (UFPI). Lá eu consegui entrar no PET (Programa de Educação Tutorial), um grupo acadêmico que contribui de diversas formas para o curso. Lá eu tive a oportunidade de estudar desenvolvimento web para ser um dos mantenedores do site deles.
+                Por gostar muito de tecnologias, aprender coisas novas, encontrar soluções e resolver problemas, percebi que tenho o perfil ideal para me tornar um desenvolvedor e tenho me dedicado a isso atualmente.
             </p>
 
             <p className={styles.paragrafo}>
-                Com isso tive minha experiência de dev mais próxima da realidade, com prazos de implementação para o site, e aprendi muito enquanto codificava.
+                Meu primeiro passo foi aprender sobre lógica de programação e me apaixonei pelo processo, então eu me matriculei na Alura, que é considerada a maior escola on-line de tecnologia do Brasil e tenho evoluído bastante. 
             </p>
             <p className={styles.paragrafo}>
-                E foi enquanto eu estava no PET que decidi procurar um estágio em desenvolvimento web. Eu encontrei uma vaga na Alura para o Scuba Team e percebi que ela aliava duas paixões minhas: programação e educação. Para minha felicidade, fui escolhido para fazer parte do time.
+                Minha intenção é estar cada vez mais preparado para as oportunidades que aparecerem, por isso, todos os dias eu procuro dedicar um tempo de qualidade para meus estudos conciliando com o meu trabalho atual e as obrigações diárias.
             </p>
                  
             <p className={styles.paragrafo}>
-                 Desde então, tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Hoje sou muito feliz de ter a oportunidade de trazer esses conteúdos ricos e encantadores para você. Espero que aprenda bastante!
+                 Minha vida tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Atualmente eu também sou aluno da UniCesumar onde estou cursando Análise e desenvolvimento de sistemas.
             </p>
         </PostModelo>
 
