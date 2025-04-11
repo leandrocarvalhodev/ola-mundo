@@ -1,3 +1,53 @@
+# 📚 Página Pessoal de Artigos
+
+Este projeto é uma **página pessoal** que reúne diversos **artigos sobre tecnologias da área de programação**, como Node.js, Python, JWT, variáveis no CSS, entre outros temas. Além dos artigos, há também uma **página dedicada com informações sobre mim**.
+
+O principal objetivo deste projeto foi **praticar o uso de React Router**, explorando conceitos como navegação entre páginas e o uso de hooks específicos para trabalhar com rotas.
+
+## 🧪 Tecnologias e Ferramentas Utilizadas
+
+- React
+- JavaScript
+- React Router DOM
+  - `useParams`
+  - `useLocation`
+- CSS (estilização simples)
+
+## 🧭 Funcionalidades
+
+- 📄 **Lista de Artigos**: 
+  - A página principal apresenta uma lista com vários artigos sobre temas variados de tecnologia.
+  - Ao clicar em um artigo, o usuário é redirecionado para uma rota específica com o conteúdo completo do texto.
+
+- 🔍 **Leitura de Parâmetros na URL**:
+  - Utilização do hook `useParams` para carregar dinamicamente o conteúdo do artigo com base no ID ou slug na URL.
+
+- 🌐 **Navegação entre páginas**:
+  - Com React Router, é possível navegar entre a página de artigos e a página "Sobre mim" sem recarregar a página.
+
+- 🔖 **Página "Sobre Mim"**:
+  - Um espaço onde conto um pouco da minha trajetória, interesses e objetivos na área de tecnologia.
+
+## 💡 Objetivo do Projeto
+
+- Praticar o desenvolvimento com React.
+- Explorar a navegação de rotas com **React Router**.
+- Trabalhar com parâmetros de URL usando `useParams`.
+- Utilizar `useLocation` para gerenciar informações da navegação.
+
+
+## 🚀 Aprendizados
+
+- Criação de rotas dinâmicas com React Router.
+- Navegação entre páginas com SPA (Single Page Application).
+- Trabalhar com dados dinâmicos usando parâmetros de URL.
+- Organização de conteúdos em componentes reutilizáveis.
+
+---
+
+Sinta-se à vontade para explorar os artigos, aprender mais sobre essas tecnologias e entender um pouco da minha jornada como desenvolvedor! 😄
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
